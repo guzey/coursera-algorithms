@@ -1,5 +1,6 @@
 import heapq
 
+
 # this function assumes that all provided numbers are distinct
 def calculate_sum_of_medians(numbers):
     smalls = []
@@ -63,8 +64,8 @@ def calculate_sum_of_medians(numbers):
 
     return sum_of_medians
 
-def main():
 
+def main():
     # numbers_list = 'median.txt'
     #
     # with open(numbers_list) as file:
@@ -74,9 +75,10 @@ def main():
     #
     #     numbers = [int(x) for x in numbers]
 
-    numbers = [5,3,6,9,1,2,8,7,4]
+    numbers = [5, 3, 6, 9, 1, 2, 8, 7, 4]
 
     print(calculate_sum_of_medians(numbers))
+
 
 if __name__ == "__main__":
     main()

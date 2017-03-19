@@ -1,0 +1,3 @@
+This week we were asked to implement a median maintenance algorithm i.e. an algorithm that reports the median of an unsorted array being fed to it one element at a time, using heaps, and report the sum of the numbers that were the medians at each step of the algorithm.
+
+The explanation of the algorithm is here: https://www.coursera.org/learn/algorithms-graphs-data-structures/lecture/iIzo8/heaps-operations-and-applications
