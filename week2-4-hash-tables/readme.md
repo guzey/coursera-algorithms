@@ -1,0 +1,3 @@
+This week we weare asked to implement an algorithm that would check if in a given array of numbers there's a pair of distinct numbers such that they sum to some third number. To work fast, the algorithm needs a lot of look ups (existence checks), so the python dictionary (implemented as a hash table) is a natural choice.
+
+Well, tbh, calling it an algorithm is a bit of an overstatement: it's literally just two for loops.
